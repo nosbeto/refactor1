@@ -25,6 +25,6 @@ During this practice I reinforced the following:
 
 ## Support
 
-This project is mantained by me. Please send an email to 12345@gmail.com for support.
+This project is mantained by me. Please send an email to 12345@gmail.com for support
 
 ## Contributing
