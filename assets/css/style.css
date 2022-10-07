@@ -2,23 +2,28 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color:#ffffff;
 }
 
+/* Manages the background color of the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Manages the title "Horiseon" */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px;
 }
 
+/* Manages the styling of the H1 "Horiseon" */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 
 .header div {
     padding-top: 15px;
@@ -37,17 +42,18 @@ body {
     margin-left: 25px;
 }
 
+/* Manages the styling of the in-the-same page hyperlinks */
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
+/* Manages the styling of the paragraph section */
 p {
     font-size: 16px;
 }
 
 .hero {
-    height: 800px;
+    height: 1400px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -55,7 +61,7 @@ p {
     background-position: center;
 }
 
-/* reduced code */
+/* manages the styling of each of images in the benefits section  */
 .float-left, .float-right {
     float: left;
     margin-right: 25px;
@@ -67,46 +73,44 @@ p {
     margin-left: 20px;
 }
 
-/* Class to manage the style of the benefits box */
+/* Manages the styling of the benefits box on the right hand side of the screen */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 950px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2a607c;
 }
 
-/* ids to manage the color font inside of the benefit class */
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* ids to manage the titles of the benefit class */
-.benefit-lead h3, .benefit-brand h3,.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* ids to manage the images of the benefit class */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /* removed unnecessary lines of code */
 .search-engine-optimization, .social-media-marketing, .online-reputation-management {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /*standardizing the colors across the entire website*/
     background-color: #2a607c;
-    color: #ffffff;
+}
+
+/* manages the color font all the benefits */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+}
+
+/* manages the titles of all the benefits */
+.benefit-lead h3, .benefit-brand h3,.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* manages the images of all the benefits */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* removed unnecessary lines of code */
@@ -123,7 +127,7 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
