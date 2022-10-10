@@ -1,6 +1,6 @@
 # Refactoring a website
 
-The purpose of this repo is to practice some of my HTML and CSS skills by refactoring a website...
+The purpose of this repo is to practice some of my HTML and CSS skills by refactoring a website.
 
 ## Table of Contents
 
